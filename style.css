@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Estilos generales */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+h1{
+  font-size: 40PX;
+  text-align: center;
+}
+
+h2{
+  font-size: 30PX;
+  text-align: center;
+}
+
+
+h1, h2, h3 {
+  color: blue;
+  margin-bottom: 15px;
+  font-weight: bold;
+
+}
+
+/* Estilos para la sección de información personal */
+.contenedor {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contenedor img {
+  width: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.contenedor p {
+  flex: 1;
+  font-size: 1.2em;
+  text-align: justify;
+  font-weight: 300;
+}
+
+/* Estilos para las redes sociales */
+section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+section a {
+  display: flexbox;
+  padding: 10px 20px;
+  text-decoration: none;
+  gap: 30px;
+}
+
+
+/* Estilos para las listas */
+ul, ol, table {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  
+}
+
+ul li, ol li, table tr {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+ul li:last-child, ol li:last-child, table tr:last-child {
+  border-bottom: none;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+
+/* voy con el formulario */
+
+/* Estilos para el formulario de contacto */
+form {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label, form input, form textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.error-message {
+  color: red;
+  font-size: 0.8em;
+}

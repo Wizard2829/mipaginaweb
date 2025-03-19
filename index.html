@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Primer Entregable, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+    <h1>Hola, Soy Luis Alberto Páez</h1>
+    <h2>Campista en: Talento caribe del MIN TIC</h2>
+        
+        <div class="contenedor">
+                     <!-- imagen y texto -->
+                    <img src="luis (2).jpeg" alt="">
+        
+                    <div>
+                            <p>
+                                Soy programador web, actualmente me encuentro en el campamento de Talento Caribe del MIN TIC, en el cual he aprendido    
+                                mucho más sobre programación y desarrollo web. 
+                            </p> 
+                            <p>
+                                Me gusta la tecnología y todo lo que se puede hacer con ella, me encanta aprender cosas nuevas y ponerlas en práctica.
+                                </p>
+                    </div>    
+        </div>
+
+        
+       
+        <section >
+            <!-- redes sociales -->
+            <h3>Me encuentras en: </h3>
+               <a href="https://www.facebook.com/mejuipaotrolao/?locale=es_LA">
+                <img src="Facebook_Logo_Primary.png" alt="facebook" width="50px" height="50px">
+            </a>
+
+                <a href="https://www.instagram.com/paezluisalbert/?hl=es">
+                    <img src="Instagram_Glyph_Gradient.svg" alt="Instagram" width="50px" height="50px">
+                </a>
+
+                <a href="https://x.com/PaezLuisAlberto">
+                    <img src="logo-black.png" alt="Instagram" width="50px" height="50px">
+                </a>
+        </section>
+    </div>
+
+    <div>
+        <!-- listas -->
+        <h1>Pasatiempos</h1>
+        <ul>
+            <li>Leer</li>
+            <li>Escuchar música</li>
+            <li>Ver series</li>
+            <li>Salir a caminar</li>
+        </ul>
+    </div>
+
+    <div>
+        <h1>Tareas de la semana</h1>
+        <ol>
+            <li>Trabajar</li>
+            <li>Estudiar</li>
+            <li>Realizar las entregas</li>
+            <li>Realizar las compras</li>
+            
+        </ol>
+    </div>
+     <div>
+        <!-- tabla horario -->
+        <table>
+            <h1>Horario</h1>
+            <tr>
+        
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sábado</th>
+            </tr>
+            <tr>
+                <td>Trabajo en casa</td>
+                <td>Trabajo en casa</td>
+                <td>Trabajo en casa</td>
+                <td>Trabajo en casa</td>
+                <td>Trabajo en casa</td>
+                <td>Clases Campus TIC</td>
+            </tr>
+            <tr>
+                <td>Clases Campus TIC</td>
+                <td>Clases Campus TIC</td>
+                <td>Clases Campus TIC</td>
+                <td>Clases Campus TIC</td> 
+                <td>Clases Campus TIC</td>
+                <td>Realizar las entregas</td>
+            </tr>
+            <tr>
+                <td>Realizar las compras</td>
+                <td></td>
+                <td>Realizar las compras</td>
+                <td></td>
+                <td>Realizar las compras</td>
+            </tr>
+     </div>
+    </table>
+    <div>
+        <h1>Contacto</h1>
+        <!-- formulario de contacto -->
+         <form id="formularioContacto">
+            <label for="nombre">Digite su Nombre: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej. James Rodriguez">
+            <div id="errorNombre" class="error-message"></div>
+            <br>
+            <label for="comentarios">Por qué nos contacta?</label>
+            <br>
+            <textarea  id="comentarios"   name="comentarios" rows="6" cols="87" placeholder="Ej: Quiero contratar sus servicios ...."></textarea>
+            <div id="errorComentarios" class="error-message"></div>
+            <br>
+            <label for="email">Digite su email: </label>
+            <input type="email" id="email"     name="email" placeholder="Ej. jrodriguez@gmail.com">
+            <div id="errorEmail" class="error-message"></div>
+            <br>
+            <input type="submit" value="Enviar">
+         </form>
+
+     </div>
+    <script src="./sendForm.js"></script>
+</body>
+</html>
